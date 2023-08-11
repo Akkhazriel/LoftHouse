@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap');
+
+// font-family: 'Playfair Display', serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--page-bg);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    font-size: 16px;
+
+    a {
+        color: var(--text-color);
+        transition: color .2s ease;
+
+        &:hover {
+            color: var(--accent);
+        }
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+.title-2 {
+    color: var(--accent);
+    font-family: var(--font-accent);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1140px;
+    margin: 0 auto;
+
+    &--sm {
+        max-width: 840px;
+    }
+}
+
